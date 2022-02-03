@@ -11,7 +11,7 @@ trait LundiDePentecote
      *
      * @param int $year The year to get the holiday in
      */
-    private function setPentecote($year)
+    private function setLundiDePentecote($year)
     {
         $date = Carbon::create($year, 3, 21, 0, 0, 0);
         $days = easter_days($year);
