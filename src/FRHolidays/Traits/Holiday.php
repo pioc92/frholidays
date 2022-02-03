@@ -41,7 +41,7 @@ trait Holiday
         $holidays = array(
             array(
                 'name' => "Jour de L'An",
-                'search_names' => ["JOUR DE L'AN", "1ER JANVIER", "PREMIER JANVIER"],
+                'search_names' => ["JOUR DE L'AN", "JOUR DE L'AN", "JOUR DE L AN"],
                 'date' => function() use ($year) {
                     return $this->setJourDeLAn($year);
                 },
@@ -49,7 +49,7 @@ trait Holiday
             ),
             array(
                 'name' => "Lundi de Pâques",
-                'search_names' => ["LUNDI DE PAQUES"],
+                'search_names' => ["LUNDI DE PAQUES","LUNDI DE PâQUES"],
                 'date' => function() use ($year) {
                     return $this->setLundiDePaques($year);
                 },
@@ -57,7 +57,7 @@ trait Holiday
             ),
             array(
                 'name' => "Fête du Travail",
-                'search_names' => ["FETE DU TRAVAIL"],
+                'search_names' => ["FETE DU TRAVAIL, FÊTE DU TRAVAIL","FêTE DU TRAVAIL"],
                 'date' => function() use ($year) {
                     return $this->setFeteDuTravail($year);
                 },
@@ -81,7 +81,7 @@ trait Holiday
             ),
             array(
                 'name' => "Pentecôte",
-                'search_names' => ["PENTECOTE"],
+                'search_names' => ["PENTECOTE","PENTECôTE"],
                 'date' => function() use ($year) {
                     return $this->setPentecote($year);
                 },
@@ -89,7 +89,7 @@ trait Holiday
             ),
             array(
                 'name' => "Fête Nationale",
-                'search_names' => ["FETE NATIONALE", "14 JUILLET"],
+                'search_names' => ["FETE NATIONALE", "FêTE NATIONALE"],
                 'date' => function() use ($year) {
                     return $this->setFeteNationale($year);
                 },
@@ -121,7 +121,7 @@ trait Holiday
             ),
             array(
                 'name' => "Noël",
-                'search_names' => ["NOEL"],
+                'search_names' => ["NOEL","NOëL"],
                 'date' => function() use ($year) {
                     return $this->setNoel($year);
                 },

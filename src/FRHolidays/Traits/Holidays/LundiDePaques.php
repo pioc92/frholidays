@@ -27,6 +27,6 @@ trait LundiDePaques
      */
     public function getLundiDePaquesHoliday($year = null)
     {
-        return $this->getHolidaysByYear("Lundi De Pâques", $year)[0];
+        return $this->getHolidaysByYear("Lundi de Pâques", $year)[0];
     }
 }

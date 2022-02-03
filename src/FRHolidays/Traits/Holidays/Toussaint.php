@@ -13,7 +13,7 @@ trait Toussaint
      */
     private function setToussaint($year)
     {
-        return Carbon::create($year, 7, 14, 0, 0, 0);
+        return Carbon::create($year, 11, 1, 0, 0, 0);
     }
 
     /**

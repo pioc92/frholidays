@@ -15,7 +15,7 @@ trait Ascension
     {
         $date = Carbon::create($year, 3, 21, 0, 0, 0);
         $days = easter_days($year);
-        $days= $days+40;
+        $days= $days+39;
 
         return $date->addDays($days);
     }

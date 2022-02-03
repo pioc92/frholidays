@@ -13,7 +13,7 @@ trait Assomption
      */
     private function setAssomption($year)
     {
-        return Carbon::create($year, 7, 14, 0, 0, 0);
+        return Carbon::create($year, 8, 15, 0, 0, 0);
     }
 
     /**

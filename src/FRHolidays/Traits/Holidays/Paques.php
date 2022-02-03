@@ -26,6 +26,6 @@ trait Paques
      */
     public function getPaquesHoliday($year = null)
     {
-        return $this->getHolidaysByYear("Paques", $year)[0];
+        return $this->getHolidaysByYear("Pâques", $year)[0];
     }
 }
