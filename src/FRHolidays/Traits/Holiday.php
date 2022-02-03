@@ -40,7 +40,7 @@ trait Holiday
         $this->setTime(0,0,0);
         $holidays = array(
             array(
-                'name' => "Jour de L'An",
+                'name' => "Jour de l'An",
                 'search_names' => ["JOUR DE L'AN", "JOUR DE L'AN", "JOUR DE L AN"],
                 'date' => function() use ($year) {
                     return $this->setJourDeLAn($year);
@@ -64,8 +64,8 @@ trait Holiday
                 'bank_holiday' => true
             ),
             array(
-                'name' => "Victoire 1945",
-                'search_names' => ["VICTOIRE 1945", "VICTOIRE"],
+                'name' => "Victoire de 1945",
+                'search_names' => ["VICTOIRE DE 1945"],
                 'date' => function() use ($year) {
                     return $this->setVictoire1945($year);
                 },
@@ -88,7 +88,7 @@ trait Holiday
                 'bank_holiday' => true
             ),
             array(
-                'name' => "Fête Nationale",
+                'name' => "Fête nationale",
                 'search_names' => ["FETE NATIONALE", "FêTE NATIONALE"],
                 'date' => function() use ($year) {
                     return $this->setFeteNationale($year);
@@ -112,7 +112,7 @@ trait Holiday
                 'bank_holiday' => true
             ),
             array(
-                'name' => "Armistice",
+                'name' => "Armistice 1918",
                 'search_names' => ["ARMISTICE"],
                 'date' => function() use ($year) {
                     return $this->setArmistice($year);

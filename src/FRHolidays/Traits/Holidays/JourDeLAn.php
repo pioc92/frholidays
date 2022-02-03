@@ -23,6 +23,6 @@ trait JourDeLAn
      */
     public function getJourDeLAnHoliday($year = null)
     {
-        return $this->getHolidaysByYear("Jour de L'An", $year)[0];
+        return $this->getHolidaysByYear("Jour de l'An", $year)[0];
     }
 }

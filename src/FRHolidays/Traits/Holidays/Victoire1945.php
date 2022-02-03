@@ -24,6 +24,6 @@ trait Victoire1945
      */
     public function getVictoire1945Holiday($year = null)
     {
-        return $this->getHolidaysByYear("Victoire 1945", $year)[0];
+        return $this->getHolidaysByYear("Victoire de 1945", $year)[0];
     }
 }

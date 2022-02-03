@@ -23,6 +23,6 @@ trait Armistice
      */
     public function getArmisticeHoliday($year = null)
     {
-        return $this->getHolidaysByYear("Armistice", $year)[0];
+        return $this->getHolidaysByYear("Armistice 1918", $year)[0];
     }
 }

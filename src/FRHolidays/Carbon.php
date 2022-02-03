@@ -20,7 +20,7 @@ class Carbon extends \Carbon\Carbon {
     /**
      * An array of all the names of the holidays
      */
-    private $holidayArray = ["Jour de L'An","Lundi de Pâques","Fête du Travail","Victoire 1945","Ascension","Lundi de Pentecôte","Fête Nationale","Assomption","Toussaint","Armistice","Noël"];
+    private $holidayArray = ["Jour de l'An","Lundi de Pâques","Fête du Travail","Victoire de 1945","Ascension","Lundi de Pentecôte","Fête Nationale","Assomption","Toussaint","Armistice 1918","Noël"];
 
     /**
      * An array of bank holidays

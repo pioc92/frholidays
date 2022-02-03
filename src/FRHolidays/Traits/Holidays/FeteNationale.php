@@ -23,6 +23,6 @@ trait FeteNationale
      */
     public function getFeteNationaleHoliday($year = null)
     {
-        return $this->getHolidaysByYear("Fête Nationale", $year)[0];
+        return $this->getHolidaysByYear("Fête nationale", $year)[0];
     }
 }
