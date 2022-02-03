@@ -113,7 +113,7 @@ trait Holiday
             ),
             array(
                 'name' => "Armistice 1918",
-                'search_names' => ["ARMISTICE"],
+                'search_names' => ["ARMISTICE 1918"],
                 'date' => function() use ($year) {
                     return $this->setArmistice($year);
                 },
