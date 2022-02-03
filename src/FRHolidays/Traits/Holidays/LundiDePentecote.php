@@ -4,7 +4,7 @@ namespace FRHolidays\Traits\Holidays;
 
 use FRHolidays\Carbon;
 
-trait Pentecote
+trait LundiDePentecote
 {
     /**
      * Setting Pentecote 50 days after Pâques
@@ -25,8 +25,8 @@ trait Pentecote
      *
      * @param int|null $year The year to get the holiday in
      */
-    public function getPentecoteHoliday($year = null)
+    public function getLundiDePentecoteHoliday($year = null)
     {
-        return $this->getHolidaysByYear("Pentecôte", $year)[0];
+        return $this->getHolidaysByYear("Lundi de Pentecôte", $year)[0];
     }
 }

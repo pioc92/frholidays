@@ -12,7 +12,7 @@ use FRHolidays\Traits\Holidays\JourDeLAn;
 use FRHolidays\Traits\Holidays\LundiDePaques;
 use FRHolidays\Traits\Holidays\Noel;
 use FRHolidays\Traits\Holidays\Paques;
-use FRHolidays\Traits\Holidays\Pentecote;
+use FRHolidays\Traits\Holidays\LundiDePentecote;
 use FRHolidays\Traits\Holidays\Toussaint;
 use FRHolidays\Traits\Holidays\Victoire1945;
 
@@ -27,7 +27,7 @@ trait Holiday
     use LundiDePaques;
     use Noel;
     use Paques;
-    use Pentecote;
+    use LundiDePentecote;
     use Toussaint;
     use Victoire1945;
 
@@ -80,10 +80,10 @@ trait Holiday
                 'bank_holiday' => true
             ),
             array(
-                'name' => "Pentecôte",
-                'search_names' => ["PENTECOTE","PENTECôTE"],
+                'name' => "Lundi de Pentecôte",
+                'search_names' => ["LUNDI DE PENTECOTE","LUNDI DE PENTECôTE"],
                 'date' => function() use ($year) {
-                    return $this->setPentecote($year);
+                    return $this->setLundiDePentecote($year);
                 },
                 'bank_holiday' => true
             ),
