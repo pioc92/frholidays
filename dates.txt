@@ -1,0 +1,13 @@
+Holidays
+Jour de l'An                    <!-- 01/01 -->
+Lundi de Pâques                 <!-- see https://en.wikipedia.org/wiki/List_of_dates_for_Easter , using built in php function `easter_date()` -->
+Fête du Travail                 <!-- 01/05 -->
+Victoire 1945                   <!-- 08/05 -->
+Ascension                       <!-- 40 days after Easter -->
+Pentecôte                       <!-- 50 days after Easter -->
+Fête Nationale                  <!-- 14/07 -->
+Assomption                      <!-- 15/08 -->
+Toussaint                       <!-- 01/11 -->
+Armistice                       <!-- 11/11 -->
+Noël                            <!-- 25/12 -->
+
