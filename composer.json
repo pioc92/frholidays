@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FRHolidays\\": "src\FRHolidays"
+            "FRHolidays\": "src\FRHolidays"
         }
     },
     "config": {
